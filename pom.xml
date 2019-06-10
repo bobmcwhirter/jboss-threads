@@ -66,17 +66,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.graalvm</groupId>
-            <artifactId>graal-sdk</artifactId>
-            <version>1.0.0-rc6</version>
+            <groupId>com.oracle.substratevm</groupId>
+            <artifactId>svm</artifactId>
+            <version>20.0.0-beta.02-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.jboss.graalvm</groupId>
-            <artifactId>graal-annotations</artifactId>
-            <version>1.0.0-rc4</version>
-            <scope>provided</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging-annotations</artifactId>
